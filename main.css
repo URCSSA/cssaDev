@@ -203,6 +203,7 @@ nav .drop_button.active {
     max-width: 800px;
     line-height:200%;
     /*min-width: 50%;*/
+    padding-bottom: 15%;
 
 }
 
