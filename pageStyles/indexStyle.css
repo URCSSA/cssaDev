@@ -6,7 +6,7 @@ body{
 #latestNewsContainer {
     display: block;
     min-height: 700px;
-    width: 1080px;
+    width: 1060px;
     margin: 0 auto;
     position: relative;
 }
@@ -26,12 +26,28 @@ body{
 .newsBox {
     color: none;
     font-family: "Avenir";
-    border: 3px solid grey;
-    margin: 20px;
-    padding: 5px;
-    height: 200px;
-    width: 300px;
-    float: left;   
+    text-align: bottom;
+    border: 1px solid lightgrey;
+    margin: 15px;
+    /*padding: 5px;*/
+    height: 210px;
+    width: 320px;
+    float: left;
+    overflow: hidden;
+   
+}
+
+.newsBox img {
+    height: auto;
+    width: 100%;
+    height: 210px;
+    /*clip: rect(0px,60px,200px,0px);*/
+    display: block;
+    position: relative;
+}
+
+.newsBox img:hover {
+    opacity: .6;
 }
 
 #primaryContentHomepage {
