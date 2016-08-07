@@ -4,12 +4,17 @@ head{
 body{
     background-color: #f9f9f9;
     font-family: "Avenir","Futura LT Light","Georgia","Garamond","Verdana";
-    src: url('DevResources/Futura LT Light.ttf');
+    /*src: url('DevResources/Futura LT Light.ttf');*/
 
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px
+}
+
+@font-face {
+    src: url('DevResources/Futura LT Light.ttf');
+
 }
 
 h1 {
@@ -283,6 +288,10 @@ nav .drop_button.active {
     width: 10.9em;
     height: 75px;
     margin: 10px;
+}
+
+#missionContent {
+    color: black;
 }
 
 .wechatQRcode {
